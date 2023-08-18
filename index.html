@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <canvas id="birthday"></canvas>
+    <link rel="shortcut icon" href="L1">   <!--Logo que aparece en chrome-->
+    <link rel="stylesheet" href="styles.css">
+
+
+
+
+
+                            <title>felicidad</title>
+</head>
+<body>
+
+
+
+
+
+
+<img src="L1.png" class="imagen" alt="Logo">
+                    <h1 id="typewriter">Feliz Cumpleaños</h1> 
+
+
+
+
+
+
+
+
+
+
+
+<div class="poema">
+<p>
+                          En este día radiante y lleno de sol,<br>
+                          A mi tía Helena, un alma llena de amor,<br>
+                          Con cariño y alegría le dedico estas palabras,<br>
+                          Un pequeño poema que en mi corazón se desborda.<br><br>
+
+
+                          <span class="destacado">Tía querida</span>, en tu cumpleaños especial,<br>
+                            Tu presencia ilumina, como un destello celestial,<br>
+                            Con dulzura y gracia, tu camino recorres,<br>
+                            Dejas huellas de bondad dondequiera que explores.<br><br>
+
+                            Tus risas son melodías que alegran el aire,<br>
+                            Tu abrazo es refugio, un cálido lazo a compartir,<br>
+                            En este día, en el que celebramos tu vida,<br>
+                            Deseo que la dicha en tu alma esté tejida.<br><br>
+
+
+                            Que la felicidad bañe cada instante tuyo,<br>
+                            Que los sueños se cumplan, como un cielo azul,<br>
+                            Tía Helena, eres un regalo en este mundo,<br>
+                            Y en tu día, te envío mi cariño profundo.<br><br>
+
+
+                                ¡Feliz cumpleaños, tía Helena querida!,<br>
+                                Que la vida te colme de alegría y risa,<br>
+                                En tu camino, que el amor siempre guíe,<br>
+                                Desde mi corazón, esta dedicatoria <br>llena de brisa.
+</p>
+</div>
+<br>
+</body>
+
+
+
+
+
+
+
+<script>
+// Ajusta el tamaño de fuente de h1 en función del tamaño de pantalla
+window.addEventListener('resize', function () {
+const h1 = document.querySelector('h1');
+const screenWidth = window.innerWidth;
+
+if (screenWidth <= 768) {
+h1.style.fontSize = '2em';
+} else {
+h1.style.fontSize = '4em';
+}
+});
+
+// Dispara el evento resize una vez al cargar la página para establecer el tamaño de fuente inicial
+window.dispatchEvent(new Event('resize'));
+</script>
+<script src="scripts.js"></script>
+
+
+
+
+
+
+<body onload="changeColors()"> <!-- Iniciar el cambio de colores al cargar la página -->
+<h2 id="title">
+        <span class="color-changing">T</span>
+        <span class="color-changing">í</span>
+        <span class="color-changing">a</span>
+        <span class="color-changing"> </span>
+        <span class="color-changing">H</span>
+        <span class="color-changing">e</span>
+        <span class="color-changing">l</span>
+        <span class="color-changing">e</span>
+        <span class="color-changing">n</span>
+        <span class="color-changing">a</span>
+</h2>
+</body>
+
+
+
+
+
+</html>
